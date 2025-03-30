@@ -39,16 +39,19 @@
 				<ul class="navbar-nav flex-column text-sm-center text-md-left">
 					<li class="nav-item">
 						<a class="nav-link" href="index.html"><i class="fas fa-home fa-fw mr-2"></i>Blog Home <span
-							class="sr-only">(current)</span></a>
+								class="sr-only">(current)</span></a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="project1.html"><i class="fas fa-file-image fa-fw mr-2"></i>Project 1</a>
+						<a class="nav-link" href="project1.html"><i class="fas fa-file-image fa-fw mr-2"></i>Project
+							1</a>
 					</li>
 					<li class="nav-item active">
-						<a class="nav-link" href="project2.html"><i class="fas fa-file-image fa-fw mr-2"></i>Project 2 </a>
+						<a class="nav-link" href="project2.html"><i class="fas fa-file-image fa-fw mr-2"></i>Project 2
+						</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="project3.html"><i class="fas fa-file-image fa-fw mr-2"></i>Project 3 </a>
+						<a class="nav-link" href="project3.html"><i class="fas fa-file-image fa-fw mr-2"></i>Project 3
+						</a>
 					</li>
 				</ul>
 				<hr>
@@ -59,18 +62,119 @@
 
 	<div class="main-wrapper">
 		<header class="page-title theme-bg-light text-center gradient py-5">
-			<h1 class="heading">-</h1>
+			<h1 class="heading">Human-Robot Interaction for Hospitality: Tom - The Theme Park Agent</h1>
 		</header>
 		<article class="about-section content px-3 py-5 p-md-5">
 			<div class="container">
-				<p>To be added.</p>
-				<!-- <figure><img class="img-fluid" src="images/about-me.jpg" alt="image"></figure> -->
-				<!-- <h5 class="mt-5">-</h5>
-				<p>-</p>
-				<h5 class="mt-5">-</h5>
-				<p>-</p>
-				<h5 class="mt-5">-</h5>
-				<p>-</p> -->
+				<h2 class="">Description of the Project and My Goal</h2>
+				<p>
+					Our project aims to enhance the theme park experience by focusing on the hospitality sector within
+					the tourism industry. We are developing a chatbot named Tom, designed to provide real-time guidance
+					to visitors. Tom will utilize multimodal communication to overcome language barriers and offer
+					assistance free of charge. This initiative is structured around three key phases: empathy, ideation,
+					and prototyping, with the goal of improving guest satisfaction and accessibility in theme parks.
+				</p>
+
+				<h2 class="mt-5">My Learning and Execution Process</h2>
+				<p>
+					At the start of the project, we were sitting in the library, struggling to figure out how an LLM
+					agent could enhance hospitality. A chatbot seemed too virtual and not practical enough for real-life
+					services, which are the core of hospitality. We couldn't come up with a solid solution, so we
+					decided to empathize with potential users.
+				</p>
+				<p>
+					We interviewed several students on campus and discovered that many of them enjoy traveling. One
+					interviewee mentioned that he often feels shy and afraid of being charged when asking for guidance
+					while traveling. He suggested that a live agent providing real-time guidance would be great, as it
+					would help him overcome shyness and language barriers without any cost.
+				</p>
+				<p>
+					With this insight, we conducted online research and found that theme parks are a popular tourist
+					destination. We decided it would be practical to build a specific agent for theme parks to provide
+					guidance to visitors. We then moved to the ideation process to design detailed functions. Sunny
+					created storyboards for three versions: a voice agent, staff assistance, and an online map agent.
+				</p>
+				<p>
+					We conducted "speed dating" by showing our storyboards to people of different age ranges and found
+					issues with all three versions. Most interviewees suggested that combining the three versions would
+					make the agent more functional and complete. We took their suggestions into account and modified
+					each function, concluding that our agent should have three main functions: crowd level
+					consideration, emergency assistance, and guiding way.
+				</p>
+				<p>
+					Next, we moved to the prototyping phase, assigning different tasks. I was assigned the relatively
+					easy task of creating a map of the theme park, which I will discuss in more detail in the next
+					section.
+				</p>
+				<figure><img class="img-fluid" src="images/project2/picture1.jpg" alt="image"></figure>
+				<p>(Picture of me interviewing a student in campus. We didn't record his face due to his request.)</p>
+				<figure><img class="img-fluid" src="images/project2/picture2.jpg" alt="image" style="width: 50%;">
+				</figure>
+				<p>(Picture of one slide of our storyboards.)</p>
+				<figure><img class="img-fluid" src="images/project2/picture3.jpg" alt="image" style="width: 50%;">
+				</figure>
+				<p>(Picture of me interviewing my dad of the storyboards.)</p>
+
+				<h2 class="mt-5">My Personal Contributions and Achievements</h2>
+				<p>
+					I was responsible for designing the theme park map. I started by researching the essential
+					facilities in theme parks, as I couldn't immediately come up with a detailed map. I then recalled my
+					experience traveling to Ueno Zoo Park in Tokyo, Japan, and found that reading their map helped me
+					brainstorm ideas for our own theme park map.
+				</p>
+				<p>
+					With a brief idea of how a theme park should look, I drew a simple map using the app Procreate. The
+					map is divided into two main areas: one for performances, including parade areas, outdoor stages,
+					and theaters, and another for playgrounds, featuring popular amusement rides such as water rides,
+					roller coasters, and skyscrapers. Additionally, the map includes restaurants and toilets.
+				</p>
+				<p>
+					After creating the map, I integrated it into a Python class, which allows the agent to easily
+					retrieve facility names, descriptions, and their paths. I also set up coordinates for each facility
+					to help the system calculate the shortest path, providing better guidance and reducing travel time
+					for users. However, I encountered some problems with this design, which I will discuss further in
+					the next section.
+				</p>
+				<figure><img class="img-fluid" src="images/project2/picture4.png" alt="image" style="width: 50%;">
+				</figure>
+				<p>(Picture of the theme park map with paths.)</p>
+				<figure><img class="img-fluid" src="images/project2/picture5.png" alt="image" style="width: 50%;">
+				</figure>
+				<p>(Picture of the theme park map with coordinates.)</p>
+
+				<h2 class="mt-5">My Personal Reflection</h2>
+				<p>
+					In this project, I learned the importance of empathizing with users and basing solutions on their
+					suggestions and needs. For example, I initially overlooked the language barrier in theme parks,
+					assuming that staff usually speak English. However, during interviews, people mentioned that this is
+					not always the case, especially in non-English speaking countries. This taught me that we often
+					overlook potential problems due to incorrect assumptions. I will always remember to think carefully
+					and verify my assumptions by consulting different types of users.
+				</p>
+				<p>
+					Additionally, I realized that the design of my map was not very user-friendly. During user testing,
+					a friend pointed out that having only one entrance/exit in the park was inconvenient. If a user is
+					at the outdoor stage, which is the farthest from the entrance, they would have to walk a long
+					distance to leave the park. This feedback taught me to always consider more suggestions from user
+					tests and think more critically about design choices.
+				</p>
+				<p>
+					Participating in this project has not only helped me understand the needs and challenges in the
+					hospitality industry but also taught me how to provide innovative solutions using design thinking. I
+					believe this framework is very helpful and well-structured, enabling me to identify problems and
+					develop practical solutions. This experience will be invaluable in my future growth as a computer
+					engineer.
+				</p>
+				<figure><img class="img-fluid" src="images/project2/picture6.jpg" alt="image" style="width: 50%;">
+				</figure>
+				<p>(Picture of my friend participating in the user testing.)</p>
+
+				<h2 class="mt-5">AI Usage</h2>
+				<p>
+					We have used AI in our project to give us some starting ideas. You can refer to the conversation below:
+					<a target="_blank" href="-">-</a>
+				</p>
+
 			</div>
 		</article>
 
